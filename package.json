@@ -19,8 +19,8 @@
   "author": "Qian He",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@fitbit/sdk": "5.0.1",
-    "@fitbit/sdk-cli": "*",
+    "@fitbit/sdk": "~6.2.0-pre.1",
+    "@fitbit/sdk-cli": "~1.8.0-pre.10",
     "standard": "*"
   },
   "fitbit": {
@@ -34,7 +34,8 @@
     ],
     "buildTargets": [
       "atlas",
-      "vulcan"
+      "vulcan",
+      "rhea"
     ],
     "i18n": {}
   }
